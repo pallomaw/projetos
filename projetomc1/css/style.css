@@ -1,0 +1,290 @@
+* {
+   
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar a {
+    color: #040404;
+    cursor: pointer;
+    font-size: 17px;
+    transition: 0.5s
+}
+
+.navbar-nav .navbar-brand:hover {
+    color: #5B8515;
+}
+
+.d-flex .navbar-brand:hover {
+    color: #5B8515;
+}
+
+
+@media (min-width: 700px){
+    .text-box h1 {
+        font-size: 58px;
+    }
+
+}
+
+
+.header {
+
+height: 85vh;
+width: 100%;
+background-image: url(../imgs/fundoo.jpg);
+background-position: center;
+background-size: cover;
+position: relative;
+}
+
+
+
+.text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  
+}
+
+
+.text-box h1 {
+    font-size: 125px;
+    letter-spacing: 1px;
+  
+}
+
+.text-box p {
+    margin: -10px 0 40px;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+
+/*serviços*/
+
+.servicos {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicos-col {
+    flex-basis: 31%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.servicos-col h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+.servicos-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transform: translateY(-7px);
+}
+
+@media (max-width: 700px) {
+    .row {
+        flex-direction: column
+    }
+}
+
+/*PRODUTOS*/
+
+#tipos {
+    text-align: left;
+}
+
+#tipos:hover {
+    color: #5B8515;
+}
+
+.produtos {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.produtos-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    
+}
+
+.produtos-col img:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.produtos-col img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.produtos-col p {
+    padding: 0;
+}
+
+.produtos-col h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 22px;
+}
+
+.produtos-col h6 {
+    color:#5B8515;
+}
+
+.btn {
+    background-color: #6B7A3E;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: #6B7A3E;
+}
+
+/*COMMENTS*/
+
+
+#testimonial {
+    width: 100%;
+    padding: 70px 0;
+    text-align: center;
+
+}
+
+.testimonial-row {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.testimonial-col {
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #4AB0FB14;
+    cursor: pointer;
+    transition: transform .5s;
+}
+
+.testimonial-col p {
+    font-size: 14px;
+    color: black;
+}
+
+.testimonial-col h4 {
+    font-size: 18px;
+}
+
+.user img {
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.user-info .fa {
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.user-info small {
+    color: #6B7A3E;
+}
+
+.testimonial-col:hover {
+    transform: translateY(7px);
+}
+
+@media screen  and (max-width: 770px)  {
+    .testimonial-col {
+        flex-basis: 100%;
+    }
+}
+
+/*FOOTER*/
+
+@media (max-width: 700px)  {
+    .footer {
+        height: 50vh;
+    }
+}
+
+.footer {
+    background-color: whitesmoke;
+    height: 40vh;
+    text-align: center;
+    padding: 100px;
+}
+
+.footer h1 {
+    font-size: 45px;
+}
+
+.footer .fa {
+    font-size: 25px;
+    letter-spacing: 10px;
+    transform: 0.7s;
+}
+
+.footer .fa:hover {
+    cursor: pointer;
+    color: #6B7A3E;
+    transform: translateY(-3px);
+}
+
+.footer .maca {
+    font-size: 50px;
+}
+
+.footer h1:hover {
+    color: #6B7A3E;
+    transform: translateY(-3px);
+}
+
