@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #5B8515;
+    font-size: 45px;
+}
+
+h6 {
+    text-align: center;
+    color: rgb(68, 66, 66);
+    font-size: 13px;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    top: 50%;
+    left: 50%;
+    padding: 60px;
+    width: min-content;
+    background-color: white;
+    box-shadow: #515E67 1px 1px 10px 0px;
+    color: black;
+    border-radius: 13px;
+}
+
+#user {
+    width: 100px;
+    margin-top: -130px;
+    border-radius: 100%;
+    box-shadow: #515E67 1px 1px 10px 1px;
+}
+
+.foto {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.input {
+    min-width: 280px;
+    border-radius: 22px;
+    border: 2px solid #6f7e8a;
+    padding: 7px;
+    margin: 0px 0px 12px -5px;
+}
+
+.input input {
+    width: 80%;
+    border: none;
+    outline: none;
+    transform: translate(-18%);
+    color: #2b344b;
+    font-size: 11pt;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+button a:hover {
+    color: #9cb673;
+}
+
+#botao {
+    margin-top: 18%;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    background: linear-gradient(-45deg, #6B7A3E, #5B8515, #9cb673);
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+#botao:hover {
+    background: black;
+    color: #9cb673;
+}
+
+#avatar {
+    width: 100%;
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
